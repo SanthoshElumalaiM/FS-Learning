@@ -1,0 +1,27 @@
+.chess{
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.white{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+   text-align: center;
+
+}
+.black{
+    background-color:black;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}

@@ -1,0 +1,40 @@
+/*1.Universal selecor*/
+/* *{
+    color:blue
+} */
+ /* 2.TagName selector */
+ /* h1{
+    color: brown;
+ }
+ p
+ {
+    color:chartreuse;
+    text-align: center;
+ } */
+/* 3.Id selector */
+ #p1
+ {
+    color: blue;
+    text-align: center;
+ }
+ #p2
+ {
+    color: crimson;
+    text-align: center;
+ }
+ /* h3
+ {
+    color: darkmagenta;
+ }
+ button
+ {
+    color:darkmagenta;
+ } */
+  /* 4.clsass Name selector */
+  .container{
+     color: blueviolet;
+    }
+  /*c 5.Group selector */
+  h1,h2,#p1{
+    color: blue;
+  }

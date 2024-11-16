@@ -1,0 +1,79 @@
+.container >button
+{
+    background-color: rgb(202, 219, 219);
+    color:rgb(211, 96, 96);
+}
+
+/* 1.hover  whenever pointing the button it will change the color */
+.container >button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.container > h1:hover{
+    color:red;
+}
+
+/*2.active :whenever clicking the button it change the background color and text color */
+
+.container > button:active{
+    background-color: rgb(155, 226, 226);
+    color: black;
+}
+
+/* 3. first-of-type */
+
+.container2 > h1:first-of-type{
+    color: rebeccapurple;
+}
+
+/* 4. :last-of-type */
+.container2 > p:last-of-type{
+    color: chartreuse;
+}
+
+/* 5:first-child */
+.container3 > h1:first-child{
+    color: hotpink;
+}
+ 
+/*  :first-child */
+/* it will select the h1 because it is first child of the div */
+.containe3 > p:first-child{
+    color: yellowgreen;
+}
+
+/* 6 :last-child */
+.containe3 > p:last-child
+{
+    color:dodgerblue;
+}
+.containe3 > button:last-of_type{
+    color: blueviolet ;
+} 
+
+/* 7.nth child */
+/* it will select child 3 only */
+/* .container4 >ul> li:nth-child(3){
+    color: red;
+} */
+
+/* it will select only even number */
+/* .container4 >ul> li:nth-child(2n){
+    color: red;
+} */
+.container4 >ul> li:nth-child(2n+1){
+    color: red;
+}
+/* it will select only odd number */
+
+/* 8.visited */
+.containe4 > a:visited{
+    color:red;
+}
+/* 9.link */
+.containe4 > a:link{
+    color:blue;
+}
+
+
+

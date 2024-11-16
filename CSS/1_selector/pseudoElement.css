@@ -1,0 +1,36 @@
+/* !1.first-letter */
+.container >p::first-letter{
+    font-size: 30px;
+    color: blue;
+}
+
+/* 2.first-line */
+.container >p::first-line{
+    color:rgb(145, 14, 211);
+    color: 20px;
+}
+/* !3.selection */
+::selection{
+    background-color: cadetblue;
+    color: black;
+}
+/* 4.Marker */
+.container2 >ul>li::marker{
+    color: red;
+}
+/*  */
+.container2 >ul>li:nth-child(2n)::marker{
+    color: blue;
+}
+/* 5.Before */
+.container2>h2::before{
+    content: "**";
+    font-size: 30px;
+    color: blueviolet;
+}
+/* 6.aftre */
+.container2>h2::after{
+    content: "**";
+    font-size: 30px;
+    color: blueviolet;
+}

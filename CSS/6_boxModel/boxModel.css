@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width:600px;
+    background-color: aqua;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 10px;
+    padding: 20px 20px 20px 20px;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10x;
+    padding-bottom: 20px; */
+    /* padding-inline: 10x;
+    padding-block: 20px;  */
+    
+}
+.container2{
+    height: 400px;
+    width:600px;
+    background-color:chartreuse;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 10px;
+    /* margin: 20px; */
+    margin-top: 20px;
+
+    
+}

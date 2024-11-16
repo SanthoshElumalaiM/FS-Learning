@@ -1,0 +1,21 @@
+.header{
+    background-color:tomato;
+    height: 500px;
+    width: 500px;
+}
+.header>.aside {
+    height: 250px;
+    width: 250px;
+    background-color:steelblue;
+}
+/* Realative Unit */
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+}
+.container>.box{
+    height: 50%;
+    width: 60%;
+    background-color: aqua;
+}

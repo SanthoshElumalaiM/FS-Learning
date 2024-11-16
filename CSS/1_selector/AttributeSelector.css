@@ -1,0 +1,24 @@
+a[href="https://www.facebook.com/"]
+{
+    color: red;
+}
+a[href="https://www.Twitter.com/"]
+{
+    color: brown;
+}
+
+a[target="_blank"]
+{
+    color: blue;
+}
+input[type="text"]
+{
+    background-color:cadetblue;
+}
+input[type="submit"]
+{
+    background-color: coral;
+}
+input[type="tel"]{
+    background-color: brown;
+}

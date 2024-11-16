@@ -1,0 +1,25 @@
+/* decendent selector  by Appling space*/
+.container h1{
+    color: green;
+}
+ 
+/* direct child selector  by appling > symbol*/
+.container3 > h1{
+    color: red;
+}
+
+/* Adjacent sibling selector By applying + symbol */
+
+ /* .container4 > #para-1+p
+{
+    color: blueviolet;
+}   */
+/* General sibling selector */
+ .container4 > #para-1 ~p{
+    color: green;
+} 
+
+/* practice  */
+/* .container3 > .container4> #para-1{
+    color: brown;
+} */
