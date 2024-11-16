@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+    
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend>User Info</legend>
+            <label for="un">UserName</label>
+             <input 
+                type="text" 
+                id="un" 
+                placeholder="Enter Your Name"
+                name="userName">                   <br>
+                                                                                                            <br>
+            <label for="ue">UserEmail</label>
+             <input 
+                type="email"  
+                id="ue" 
+                placeholder="Enter Your Email"
+                name="userEmail">                  <br>
+                                                                                                            <br>
+            <label for="upwd" >Password</label>
+            <input 
+                type="password" 
+                id="upwd" 
+                placeholder="Enter Your Password"  
+                name="pwd"
+                minlength="8"
+                required
+                >      `         <br>  
+                                                                                                            <br>  
+        </fieldset>
+        <fieldset>
+             <legend>Personal Info</legend>
+            <label for="ua"> UserAge</label>                                                              
+            <input 
+                type="number" 
+                name="UserAge" 
+                placeholder="Enter Your Age" 
+                id="ua">                       <br>
+                                                                                                            <br>
+            <label for="uph">PhoneNumber</label>                                                    
+            <input 
+                type="tel" 
+                placeholder="Enter The PhoneNumber"
+                id="uph" 
+                name="phoneNumber"
+                minlength="10">              <br>
+                                                                                                            <br>
+            <label for="uadd">Address</label>   
+            <textarea 
+                name="userAddress"
+                id="uadd" 
+                rows="10" 
+                cols="20" 
+                placeholder="Ex:123,xyz Street,village Name"></textarea> <br>                                                                            
+        </fieldset>
+        <fieldset>
+            <legend>Timig</legend>
+            <label for="dd">Date</label>
+            <input type="date" name="date" id="dd"> <br><br>
+            <label for="tt">Time</label>
+            <input type="time" name="time" id="tt"> <br><br>
+            <label for="week">Week</label>
+            <input type="week" name="week" id="week"> <br> <br>
+            <label for="month">Month</label>
+            <input type="month" name="month" id="month"> <br> <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox  and Radio Button</legend>
+            <label >Subject</label><br>
+            <input type="checkbox" name="sub1" id="html" value="html" >
+            <label for="html">HTML</label>
+            <input type="checkbox" name="sub2" id="css" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="sub2" id="javascript" value="javascript">
+            <label for="javascript">javascript</label> <br> <br>
+
+            <label for="">Gender</label> <br>
+            <input type="radio" name="gender" id="G1" value="male">
+            <label for="G1">Male</label> <br>
+            <input type="radio" name="gender" id="G2" value="female">
+            <label for="G2">Female</label> <br>
+            <input type="radio" name="gender" id="G3" value="Others">
+            <label for="G3">Others</label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Select option</legend>
+            <label for="c1">Select Subject</label>
+             <select name="course" id="c1">
+                <optgroup label="FrontEnd">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">javascript</option>
+
+                </optgroup>
+                <optgroup label="BackEnd">
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                    <option value="c++">C++</option>
+                </optgroup>
+            </select><br>
+             <label for="s1">Salary</label>
+             <input type="range" name="Salary" id="s1" minn="100000" max="2000000">
+        </fieldset>
+        <fieldset>
+            <legend>Button</legend>
+            <!-- <input type="submit"  value="Signup"> -->
+            <!-- <input type="reset" value="reset"> -->
+             <button>submit</button>
+             <button>rese</button>
+        </fieldset>
+
+    
+        
+        
+    </form>
+    
+</body>
+</html>
