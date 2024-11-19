@@ -5,7 +5,7 @@
 }
 header{
 
-    background-color: #e02222;
+    background-color: rgb(224, 34, 34);
     height: 30vh;
 }
 main{
@@ -14,10 +14,12 @@ main{
     /* rgba means red,green,blue,alpha....alpha meams obasity value from 0-1 */
     background-color: rgba(255,0,0,0.4); 
     height: 50vh;
+    border-style: solid;
 }
 main>p{
     font-size: 30px;
     color: hsl(330, 89%, 45%);
+    
 }
 footer{
     background-color: rgba(38, 38, 175,0.7);
