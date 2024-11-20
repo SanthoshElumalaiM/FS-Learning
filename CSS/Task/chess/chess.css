@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body>.chess
+{
+    height:405px;
+    width: 400px;
+    background-color:white;
+    border:3px solid black;
+    
+
+}
+.row1>.black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.row1>.white{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+}
+.chess>.row1{
+    display: flex;
+}
+
+
