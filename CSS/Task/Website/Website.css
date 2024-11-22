@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    
+}
+header>p{
+    padding: 10px;
+    
+}
+header>button{
+    background-color:wheat;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+header>button:hover{
+    background-color:rgb(212, 160, 62);
+}
+main{
+ display: flex;
+ padding: 20px;
+}
+main>section{
+    height: 400px;
+   box-shadow: 2px 3px 5px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+main>section>img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+
+}
+main>section>h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+main>section>p{
+    text-align: center;
+    
+}
