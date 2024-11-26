@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 400px;
+            background-color: red;
+            display:flex;
+        }
+        header>.left{
+            background-color: aqua; 
+            flex-basis: 50%;
+        }
+        header>.right{
+            background-color:blue; 
+            flex-basis:50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <h1>This is Left</h1>
+            </div>
+        
+            <div class="right">
+                <h1>This is right</h1>
+            </div>
+    </header>
+    
+</body>
+</html>
