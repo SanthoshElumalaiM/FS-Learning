@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(219, 77, 52);
+}
+.outer>.inner{
+    height: 250px;
+    width: 300px;
+    border: 3px solid rgb(176, 130, 219);
+    cursor: pointer;
+    overflow:auto;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px blue;
+    color: white;
+    text-align: justify;
+}
+.outer>.inner::-webkit-scrollbar{
+    overflow: hidden;
+}
