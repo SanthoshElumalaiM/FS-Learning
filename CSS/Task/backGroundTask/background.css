@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner{
+    height: 100vh;
+    background-color:tan;
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-attachment: fixed;
+
+}
+
+.inner>h1{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 4px black;
+}
+.inner>p{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 4px black;
+    
+}
+#id2{
+    background-image: url(https://images.pexels.com/photos/18336739/pexels-photo-18336739/free-photo-of-sorgschrofen-gipfel.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+#id3{
+    background-image: url(https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+#id4{
+    background-image: url(https://images.pexels.com/photos/1024981/pexels-photo-1024981.jpeg?auto=compress&cs=tinysrgb&w=600);
+}

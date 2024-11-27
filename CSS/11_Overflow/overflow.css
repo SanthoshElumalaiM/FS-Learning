@@ -25,6 +25,7 @@
     color: white;
     text-align: justify;
 }
+/* Remove the Scroll bar */
 .outer>.inner::-webkit-scrollbar{
     overflow: hidden;
 }
