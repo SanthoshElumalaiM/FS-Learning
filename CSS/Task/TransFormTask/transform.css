@@ -7,7 +7,7 @@ body{
     background-color: black;
 }
 .inner{
-    height: 100;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,9 +19,25 @@ body{
     background-color: blue;
     border: 3px solid red;
     border-radius: 50%;
-    transition: all 2s ease-in 1s;
+    transition: all 1s ease-in 1s;
 }
-.inner>.round>#id1:hover{
+.inner> #id1:hover{
     transform: translateX(90vw);
     background-color: aqua;
+}
+.inner> #id2:hover{
+    transform: translateX(90vw) rotate(90deg)skew(45deg);
+    background-color:brown;
+    border: none;
+}
+.inner> #id3:hover{
+    transform: translateX(90vw)scale(2) rotate(90deg);
+    background-color: rgb(95, 233, 125);
+    border-radius: 0%;
+}
+.inner> #id4:hover{
+    /* transform: translate(90vw,-90vw) rotate(90deg); */
+    background-color: rgb(221, 92, 167);
+    transform: translateX(90vw)scale(2) rotate(190deg) skewX(90deg);
+
 }
