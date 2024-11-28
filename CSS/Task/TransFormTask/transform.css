@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.inner{
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.round{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 3px solid red;
+    border-radius: 50%;
+    transition: all 2s ease-in 1s;
+}
+.inner>.round>#id1:hover{
+    transform: translateX(90vw);
+    background-color: aqua;
+}
