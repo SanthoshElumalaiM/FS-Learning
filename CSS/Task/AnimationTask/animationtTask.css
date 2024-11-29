@@ -14,7 +14,7 @@
 .outer>.container{
     height: 400px;
     width: 400px;
-    border: 3px solid white;
+    border-top: 3px solid white;
     border-radius: 50%;
     animation:rotateCircle 1s linear infinite;
    
