@@ -28,12 +28,14 @@ body{
 .inner> #id2:hover{
     transform: translateX(90vw) rotate(90deg)skew(45deg);
     background-color:brown;
-    border: none;
+
+    border-color: rgb(187, 93, 187);
 }
 .inner> #id3:hover{
     transform: translateX(90vw)scale(2) rotate(90deg);
     background-color: rgb(95, 233, 125);
     border-radius: 0%;
+    border-color: rgb(155, 223, 87);
 }
 .inner> #id4:hover{
     /* transform: translate(90vw,-90vw) rotate(90deg); */
