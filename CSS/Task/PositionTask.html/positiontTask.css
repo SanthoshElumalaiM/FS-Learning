@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to left,white,blue);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.outer>.inner{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+    background: linear-gradient(to left,red,yellow);
+    position: relative;
+
+}
+.inner>#img1{
+   
+   position: absolute;
+   
+   height: 400px;
+  bottom: 5px;
+  
+  left: 2px;
+  
+   
+    
+}
+.inner>#img2{
+   
+    position: absolute;
+    height: 500px;
+    bottom: 5px;
+    left:2  px;
+    
+    
+}
+.inner>#img3{
+   
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    
+    bottom: 20px;
+    left: 30px;
+
+    
+}
