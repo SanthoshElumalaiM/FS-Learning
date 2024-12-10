@@ -1,6 +1,6 @@
  //! DataTypes in JavaScript
 
- //! 1.primitive DataTypes
+ //* 1.primitive DataTypes
  //? i) Number Datatypes
  let a=10;
  console.log(a);
@@ -52,10 +52,45 @@ console.log(typeof strOb);
 let s;
 console.log(s);
 console.log(typeof s);
+//! 5.null
+let sal=null;
+console.log(sal);
+console.log(typeof sal);
 
-let a1=null;
-console.log(a1);
-// console.log(typeof a1);
+//! 6.bigint
+let num7=BigInt(498);
+console.log(num7);
+console.log(typeof num7);
+
+//* 2.Non-primitive dataTypes
+
+//! 1.Array
+
+let arr=[2,'sant',true,undefined]
+console.log(arr);
+console.log(typeof arr);
+
+//! 2.funtion
+
+function add()
+{
+    console.log("Hello i am");
+    
+}
+add()
+
+//! 3.object
+
+let Student={
+    sname:'sant',
+    sid:22,
+    phNo:9786011613,
+    skills:['java','sql','html','css','manual_testing']
+}
+console.log(Student);
+
+
+
 
 
 
