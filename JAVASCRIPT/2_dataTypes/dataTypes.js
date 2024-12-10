@@ -48,6 +48,19 @@ let strOb=new String('hello')
 console.log(strOb);
 console.log(typeof strOb);
 
+//! 4.undefined
+let s;
+console.log(s);
+console.log(typeof s);
+
+let a1=null;
+console.log(a1);
+// console.log(typeof a1);
+
+
+
+
+
 
 
 
