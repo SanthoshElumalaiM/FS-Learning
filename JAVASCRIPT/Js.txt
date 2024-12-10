@@ -5,3 +5,5 @@
 5.How to know the dataType of the variable?(Using TypeOf)
 6.What is difference between  undefined and null?
 7.what is typeOf null?(object)
+8.What is nodeJs?
+nodeJs is JavaScript runtime Environment ,open source and it helps to execute the JavaScript file outside of the browser.its also cross platform
