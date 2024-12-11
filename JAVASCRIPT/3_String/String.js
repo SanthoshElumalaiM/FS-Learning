@@ -79,8 +79,22 @@ let str8="hi how are you"
 console.log(str8.slice(3,6));
 //* if we don't give the endIndex ,then from starting it will pirnt till the length of the string.
 console.log(str8.slice(2));
-console.log(str8.slice(-1));
-console.log(str8.slice(-9));
+//* we can give negative value as an index,it will take from last
+console.log(str8.slice(-3));
+console.log(str8.slice(5,-2));
+//* we can't give startIndex greater than endIndext.it we can it will give empty
+console.log(str8.slice(4,0));
+
+//! 12.subString()
+//* it is also used to extract the string from another string
+//* it will take two parameters(StartsIndex,endIndex)
+//* it will not includes the endIndex vlaue.
+
+//* we can't give negative value .it will converted to 0.
+console.log(str8.substring(-4));
+//*it wil swap these two string
+console.log(str8.substring(5,3));
+
 
 
 
