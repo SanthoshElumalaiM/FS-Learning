@@ -33,20 +33,56 @@ console.log(str1.indexOf('l'));
 let charat=str1.charAt(4)
 console.log(charat);
 console.log(str3.charAt(2));
-//! 4.cancat()
+//! 5.cancat()
 let str4='hello'
 let str5="how are you"
 //* it is used to combine two or more  than 2 Strings and it will give return new string 
 let combined=str4.concat(" ",str5," Sant")
 console.log(combined);
 
-//!5.trim()
+//!6.trim()
 //* it is used to remove thw which spaces from both the sides of the string and it will return one string
 
 let str6=" hello   "
-console.log(str6.length);
+console.log(str6.length);//9
 let trim=str6.trim()
-console.log(trim.length);
+console.log(trim.length);//5
+
+//! 7.includes()
+//* it is used to chech the whether any character or string is present or not.
+//* if it is present it will give true otherwise it will return false.
+
+console.log(str6.includes('o'));//true
+console.log(str6.includes('i'));//false
+console.log(str6.includes(' '));//true
+
+//! 8.startsWith()
+//* it is used to check whether first charcter is startwith  for specific character or not
+//* if it is present it will return true otherwise return false.
+console.log(str1.startsWith('h'));
+//! 9.endwith()
+//* it is used to check whether last charcter is endwith  for specific character or not
+//* if it is present it will return true otherwise return false.
+console.log(str1.endsWith('o'))
+//! 10.split()
+//*it is used to convert any string to array
+let str7="hi how are"
+let arr=str7.split(" ")
+console.log(arr);
+console.log(arr.length);
+
+//! 11.slice()
+//* it is used to extract the character or string from another string
+//* it will take two parameters (startIndex,endIndex)
+//* it will not includes the endIndex vlaue..
+let str8="hi how are you"
+console.log(str8.slice(3,6));
+//* if we don't give the endIndex ,then from starting it will pirnt till the length of the string.
+console.log(str8.slice(2));
+console.log(str8.slice(-1));
+console.log(str8.slice(-9));
+
+
 
 
 
