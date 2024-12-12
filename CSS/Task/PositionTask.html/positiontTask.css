@@ -39,6 +39,7 @@
     height: 500px;
     bottom: 5px;
     left:2  px;
+    filter: drop-shadow(2px 3px 2px rgb(0, 0, 0));
     
     
 }

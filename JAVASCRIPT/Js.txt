@@ -7,3 +7,9 @@
 7.what is typeOf null?(object)
 8.What is nodeJs?
 nodeJs is JavaScript runtime Environment ,open source and it helps to execute the JavaScript file outside of the browser.its also cross platform
+ //characteristic of Js
+ 1.loosely type
+ 2.Synchronous
+ 3.dynamic
+ 4.single thread
+ 5.
