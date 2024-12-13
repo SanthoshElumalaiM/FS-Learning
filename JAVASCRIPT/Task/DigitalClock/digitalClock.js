@@ -2,11 +2,11 @@ function Clock()
 {
     var now=new Date()
     var hours=now.getHours();
-    var mintues=now.getMinutes();
+    var minutes=now.getMinutes();
     var seconds=now.getSeconds();
     
     hours=hours<10 ? "0" +hours:hours
-    mintues=mintues<10 ? "0" +mintues:mintues
+    minutes=minutes<10 ? "0" +minutes:minutes
     seconds=seconds<10 ? "0" +seconds:seconds
     var Time =hours+":"+mintues+":"+seconds
     // console.log(Time);
@@ -18,6 +18,6 @@ function Clock()
 
 
 }
-setInterval(Clock,100)
+setInterval(Clock,1000)
 Clock()
 
