@@ -22,7 +22,7 @@ body{
     border-radius: 20px;
  
 }
-#clock1{
+.clock1{
     font-size: 6rem;
     font-weight: 1000;
     padding: 25px 30px;
