@@ -89,4 +89,13 @@ let Hello=(a,b,c)=>
 Hello(10,"abc",()=>{
     console.log("Hi how are You");
     
-})
+});
+
+//! IIFE
+(
+    function()
+    {
+        console.log("IIFE");
+        
+    }
+)()
