@@ -37,12 +37,12 @@ let isPrime1=(num)=>{
     }
     
 }
-// let number=20
-// for (let j =1 ;j<number ;j++) 
-// {
-//     isPrime1(j)
+let number=20
+for (let j =1 ;j<number ;j++) 
+{
+    isPrime1(j)
     
-// }
+}
 // isPrime1(8)
 if(isPrime(5))
 {

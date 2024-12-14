@@ -12,4 +12,4 @@ nodeJs is JavaScript runtime Environment ,open source and it helps to execute th
  2.Synchronous
  3.dynamic
  4.single thread
- 5.
+ 9.What is lexiacl Scope?
