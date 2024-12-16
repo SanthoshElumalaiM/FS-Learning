@@ -89,9 +89,10 @@ let Hello=(a,b,c)=>
 Hello(10,"abc",()=>{
     console.log("Hi how are You");
     
+    
 });
 
-//! IIFE
+//! IIFE-Immediate
 (
     function()
     {
@@ -99,3 +100,10 @@ Hello(10,"abc",()=>{
         
     }
 )()
+
+console.log(num4);
+var num4
+num4=40
+console.log(num4);
+
+///

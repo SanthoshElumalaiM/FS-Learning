@@ -13,3 +13,4 @@ nodeJs is JavaScript runtime Environment ,open source and it helps to execute th
  3.dynamic
  4.single thread
  9.What is lexiacl Scope?
+ 10.difference between var and let
