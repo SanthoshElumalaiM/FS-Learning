@@ -67,9 +67,41 @@ console.log(reversed);
 console.log(combiner);//shallow copy
 
 //9.join()
+//* it is used to convert array to string
+
+let arr3=['s','a','n','t']
+console.log(arr3.join(""));
+
+//! How to revese any string by using inbulit in method
+
+let str="hello"
+let strarr=str.split("")
+console.log(strarr);
+
+let rev=strarr.reverse()
+console.log(rev);
+
+let revstr=rev.join("")
+console.log(revstr);
+
+console.log(str.split("").reverse().join(""));
 
 
 
 
+//10.splice()
+//* it is used to add,remove,modifing the element
+//* it is also modifying the the original string.
 
+//*its for removing
+let arr4=[10,20,30,40,50,60]
+arr4.splice(2,2)//10,20,50,60
+
+//* it for replacing
+arr4.splice(2,3,"hello")//10,20,"hello"
+console.log(arr4);
+
+//*for adding
+arr4.splice(2,0,"HI")
+console.log(arr4);
 
