@@ -48,7 +48,7 @@ let filterArr1=arr.filter((ele)=>ele>30)
 console.log("filter in single line:"+filterArr1);
 
 //! 3.Map 
-//* it is used also traversing the array and along with if we want to any arithematic operation it can to do.
+//* it is used also traversing the array and along with if we want to any arithematic operation we can to do.
 //* it can take three parameter also
 let arrMap=arr.map((ele)=>{
     return ele+100
@@ -57,3 +57,22 @@ console.log("Using Map method:"+arrMap);
 
 let arrMap1=arr.map((ele)=>ele+100)
 console.log("Map in single line:"+arrMap1);
+
+//! 4.reduce()
+//* it can take four parameter like accumulator,element,index,array
+let reduceArr=arr.reduce((acc,ele)=>{
+    return acc+ele
+},1000)
+console.log("Using reduce method"+reduceArr);
+
+//!5.sort()
+let unsortArr=[2,5,8,0,14,3]
+let asc=unsortArr.sort((a,b)=>{
+    return a-b;
+})
+console.log(asc);
+
+let desc=unsortArr.sort((a,b)=>{
+    return b-a;
+})
+console.log(desc);
