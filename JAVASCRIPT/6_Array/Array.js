@@ -105,3 +105,7 @@ console.log(arr4);
 arr4.splice(2,0,"HI")
 console.log(arr4);
 
+
+
+
+
