@@ -72,6 +72,77 @@ console.log(keys1);
 let value=Object.values(student)
 console.log(value);
 
+//! Object.entried()
+//* it will return one array there all the key and value pairs will be stored in each array.
+let entries=Object.entries(student)
+console.log(entries);
+
+//! Object.freeze()
+
+//* This method  will freeze the object means we can't
+console.log(student);
+
+Object.freeze(student)
+
+student.phno=98766653456 //not possible
+console.log(student);
+delete student.age
+console.log(student); //not possible
+
+
+//! 5.Object.isFrozen()
+//* it is used to check whether the object is frozen or not.if it isfrozen it wil give true otherwise it will return false.
+
+console.log(Object.isFrozen(student));
+
+
+//! 6.Object.seal()
+
+//* it is also simlar to object.freeze() method but here we can modify the property of the object.
+//* we cannot dele or add any element
+let student1={
+    sname:"abc",
+    age:18,
+    skills:["java","html","css"],
+    address:{
+        city:"bangalore",
+        pin:98765
+
+    }
+
+}
+Object.seal(student1)
+console.log(student1);
+delete student1.age
+console.log(student1);
+student1.phono=90909
+console.log(student1);
+
+student1.sname="sant"
+console.log(student1);
+
+//! 7.Object.issealed()
+
+// * it is used to know the whether the object is sealed or not
+console.log(Object.isSealed(student1));
+
+//! 8. Object.assign()
+//* it is used combine two or more than object and it return the new object.
+let ob1={
+    name:"ob1",
+    age:10
+}
+let ob2={
+    city:"chennai",
+    pin:890
+}
+
+let combinedOb=Object.assign({},ob1,ob2)
+console.log(combinedOb);
+
+//!9.hasOwnPrope()
+//* it is used to check the given preperty is present or not
+console.log(ob1.hasOwnProperty("name"));
 
 
 
