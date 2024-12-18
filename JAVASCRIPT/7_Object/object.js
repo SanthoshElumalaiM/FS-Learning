@@ -140,7 +140,7 @@ let ob2={
 let combinedOb=Object.assign({},ob1,ob2)
 console.log(combinedOb);
 
-//!9.hasOwnPrope()
+//!9.hasOwnProperty()
 //* it is used to check the given preperty is present or not
 console.log(ob1.hasOwnProperty("name"));
 
