@@ -47,6 +47,7 @@ student.map((stu)=>{
 //! for-in loop for array
 //* for-in loop it will print the index for array
 //* for-in loop it will print the key for object
+//* for-in loop it will print the index for string
 let arr=[10,20,30,40]
 for(let i in arr)
 {
@@ -68,7 +69,8 @@ for(let key in ob){
 }
 //! for-of loop  for array
 //* for-of loop it will print element for array
-//* object can't use for-of loo in object
+//* object can't use for-of loop in object
+//* for-in loop it will print the character for string
 for(let ele of arr)
 {
     console.log(ele);
