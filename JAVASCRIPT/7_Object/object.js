@@ -60,7 +60,7 @@ console.log(student.address.city);
 
 //! Object.keys()
 
-//* it will return array where all the keys will be  stored as arrat element 
+//* it will return array where all the keys will be  stored as array element 
 let keys=Object.keys(student)
 console.log(keys);
 
