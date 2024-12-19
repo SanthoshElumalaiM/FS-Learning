@@ -79,3 +79,15 @@ for(let ele of arr)
 //     console.log(ele);
     
 // }
+//! for string
+let str="hello"
+for(let i in str)
+{
+    console.log(i);
+    
+}
+for(let ele of str)
+{
+    console.log(ele);
+    
+}
