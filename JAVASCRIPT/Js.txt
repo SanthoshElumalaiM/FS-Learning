@@ -19,3 +19,4 @@ nodeJs is JavaScript runtime Environment ,open source and it helps to execute th
  13.difference between for-in and for-of
  14.What is rest parameter and spread operator().
  15.what is shallow copy and deep copy
+ 16.what is promise?
