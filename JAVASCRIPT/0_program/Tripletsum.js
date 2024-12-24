@@ -12,25 +12,26 @@ let target=10
     
 // }
 
-let arr =arr1.sort()
+let arr =arr1.sort((a,b)=>{return a-b;})
 console.log(arr);
 
-// let i=0
-// let j=arr.length-1
-// while(i<j)
-// {
-//     if(arr[i]+arr[j]==target)
-//     {
-//         console.log("Fine");
-//         break
+let i=0
+let j=arr.length-1
+while(i<j)
+{
+    if(arr[i]+arr[j]==target)
+    {
+        console.log("("+arr[i]+","+arr[j]+") :"+"target reached");
         
-//     }
-//      if(arr[i]+arr[j]>target)
-//     {
-//         j--;
-//     }
-//     if(arr[i]+arr[j]< target)
-//     {
-//         i++;
-//     }
-// }
+        break
+        
+    }
+    else if(arr[i]+arr[j]>target)
+    {
+        j--;
+    }
+    else
+    {
+        i++;
+    }
+}
