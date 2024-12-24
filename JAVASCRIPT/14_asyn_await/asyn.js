@@ -7,14 +7,18 @@ let getData= async()=>{
 
         let jsonData= await fetchedData.json()
         console.log(jsonData);
+
+       jsonData.map((ele)=>{
+        console.log(ele.title,ele.price,ele.rating);
+        
+       })
         
     } catch (error) {
-        console.log(erorr);
+        console.log(error);
         
-    }
-    
-    
-    
+    }   
 }
 getData()
+
+
     
