@@ -6,7 +6,7 @@ let fectchedData=fetch("https://fakestoreapi.com/products")
 console.log(fectchedData);
 
 fectchedData.then((data)=>{
-    // console.log(data);//* return response87
+    // console.log(data);//* return response
     let jsonData=data.json()
     // console.log(jsonData);//* return promise
     jsonData.then((fd)=>{

@@ -1,3 +1,5 @@
+//* it is javaScript Object
+
 let p=new Promise((reslove,reject)=>{
     // reslove("i will take ")
     reject("i will not do")
