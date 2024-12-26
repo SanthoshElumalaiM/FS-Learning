@@ -89,3 +89,11 @@ let con=document.querySelector(".container")
 // con.before(heading1)
 // con.append(heading1)
 con.prepend(heading1)
+
+let div=document.createElement("div")
+div.classList.add(".con9")
+console.log(div.classList);
+
+let con9=document.querySelector(".con8")
+
+con9.after(div)
