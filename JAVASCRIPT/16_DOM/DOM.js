@@ -77,3 +77,15 @@ console.log(con8.classList);
 con8.classList.remove("con")
 console.log(con8.classList);
 
+//!5.How to create element
+
+let heading1=document.createElement("h1")
+heading1.innerText="am heading from js file"
+// h1.style.color="red"
+heading1.classList.add("heading1")
+
+let con=document.querySelector(".container")
+// con.after(heading1)
+// con.before(heading1)
+// con.append(heading1)
+con.prepend(heading1)
