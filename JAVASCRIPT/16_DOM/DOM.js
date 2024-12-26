@@ -1,18 +1,18 @@
 
-//! 1.How to target element by the id
+//! 1)i.How to target element by the id
 let p1=document.getElementById("p1")
 console.log(p1);
 
 let h1=document.getElementById("heading1")
 console.log(h1);
 
-//! 2.How to target the element by the class
+//! ii.How to target the element by the class
 
 let cons=document.getElementsByClassName("container")
 console.log(cons);
 console.log(cons[1]);
 
-//! 3.How to target element by selector
+//! iii.How to target element by selector
 
 let para=document.querySelector("#p1")
 console.log(para);
@@ -21,7 +21,7 @@ let container=document.querySelector(".container")
 console.log(container);
 
 
-//! How to kmow the what is present inside the any elemnt
+//!2 How to kmow the what is present inside the any elemnt
 
 let con3=document.querySelector(".container3")
 
@@ -56,10 +56,24 @@ console.log(con7);
 
 con7.innerHTML=con6
 
+//!3.How to apply css from the JavaScript
 
+ con7.style.backgroundColor="pink"
+ con7.style.color="white"
+ con7.style.border="3px solid black"
  
- 
+
+
+//! 4.how to add and remove class
 
 
 
+let con8=document.querySelector(".con8")
+console.log(con8.classList);
+//*add
+con8.classList.add("hello")
+console.log(con8.classList);
+//*remove
+con8.classList.remove("con")
+console.log(con8.classList);
 
