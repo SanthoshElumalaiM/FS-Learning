@@ -35,7 +35,7 @@ let add=()=>
     let table=document.querySelector("table")
     let tr=document.createElement("tr")
     tr.innerHTML=`<td>${num1}</td>
-    <td>${num1}</td>
+    <td>${num2}</td>
     <td>${sum}</td>`
     table.append(tr)
     
