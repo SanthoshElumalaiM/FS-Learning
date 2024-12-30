@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        
+        form{
+            width: 300px;
+            height: 250px;
+            background-color: aquamarine;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 20px auto;
+            padding: 10px;
+            margin-top: 20px;
+            
+        }
+        form>label{
+            
+            font-weight: bold;
+            font-size: 20px;
+            display: block;
+            margin: 8px;
+            
+        }
+        form>input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        form>button{
+            
+            display: block;
+            padding: 8px;
+            width: 100%; 
+            margin-top: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-weight: bold ;
+            font-size: 20px;
+            background-color: aqua;
+
+        }
+        .result{
+            width: 300px;
+            height: 100px;
+            border: 3px solid black;
+            margin-top: 20px ;
+            border-radius: 10px;
+            
+
+        }
+    </Style>
+
 </head>
 <body>
     <h1>Event in JS</h1>
     <button id="btn" >clickMe</button>
+    <form action="" id="form">
+        <label for="">Number1</label>
+        <input type="text" id="num1">
+        <label for="">Number2</label>
+        <input type="text" id="num2">
+        <button>Calculate</button>
+        
+    </form>
+    <div class="result"></div>
     <Script src="./Event!.js"></Script>
 </body>
 </html>
