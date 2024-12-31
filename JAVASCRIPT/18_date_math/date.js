@@ -24,6 +24,7 @@ console.log(date);
 console.log(`today is ${ml[month]} and today is ${weekday[day]}`);
 
 let getTime=()=>{
+    let now=new Date()
     var hours=now.getHours();
     var minutes=now.getMinutes();
     var seconds=now.getSeconds();
