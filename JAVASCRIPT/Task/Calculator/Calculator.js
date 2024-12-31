@@ -15,3 +15,11 @@ let calculate=()=>{
     document.getElementById("inp").value=eval(inputValue)
     
 }
+let backSpace=()=>{
+    let remove=document.getElementById("inp").value
+    // let r=remove.slice(0,-1)
+    // console.log(r);
+    document.getElementById("inp").value=remove.slice(0,-1)
+    
+    
+}
