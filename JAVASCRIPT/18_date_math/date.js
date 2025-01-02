@@ -39,3 +39,16 @@ let getTime=()=>{
 }
 setInterval(getTime,1000)
 getTime()
+
+//! Math Object
+console.log(Math.min(3,10));
+console.log(Math.max(3,10));
+console.log(Math.sqrt(16));
+
+console.log(Math.floor(4.7));
+console.log(Math.ceil(4.5));
+console.log(Math.round(4.5));
+
+
+
+
