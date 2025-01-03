@@ -41,7 +41,7 @@ let combined=str4.concat(" ",str5," Sant")
 console.log(combined);
 
 //!6.trim()
-//* it is used to remove thw which spaces from both the sides of the string and it will return one string
+//* it is used to remove the white spaces from both the sides of the string and it will return one string
 
 let str6=" hello   "
 console.log(str6.length);//9
