@@ -49,7 +49,7 @@ let trim=str6.trim()
 console.log(trim.length);//5
 
 //! 7.includes()
-//* it is used to chech the whether any character or string is present or not.
+//* it is used to check the whether any character or string is present or not.
 //* if it is present it will give true otherwise it will return false.
 
 console.log(str6.includes('o'));//true
