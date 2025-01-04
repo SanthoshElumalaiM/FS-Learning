@@ -72,7 +72,7 @@ console.log(keys1);
 let value=Object.values(student)
 console.log(value);
 
-//! Object.entried()
+//! Object.entries()
 //* it will return one array there all the key and value pairs will be stored in each array.
 let entries=Object.entries(student)
 console.log(entries);
