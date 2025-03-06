@@ -16,7 +16,7 @@ console.log(b);
 console.log("After adding the element:"+arr);
 
 //2.pop()
-//* it will remove the element  from the end
+//* it will remove the last lement  from the end
 //* it  will returns removed element
 
 let c=arr.pop()
