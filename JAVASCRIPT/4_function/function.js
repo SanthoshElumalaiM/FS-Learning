@@ -37,7 +37,7 @@ console.log(res);
 
 //! 2.Function with Expression
 //* Any function is assigning varible is called as function with Expresion.
-//* It is also calles as anomonous function that means without name declaring function name
+//* It is also called as anomonous function that means without name declaring function name
  let hello=function() {
     console.log("Hello am Sant");
 }
