@@ -10,13 +10,20 @@ console.log(num1);
 var num2=40;
 console.log(num2);
 
+console.log(num9)
+
+var num9=10;
+
 //2.let
 let num3;
 num3=80;
-console.log(num3);p
+// console.log(num10)
+// let num10=19;
+console.log(num3);
 
 let num4=78;
-// let num3=45;
+ num3=45;
+ console.log(num3)
 
 //3/const
 const num6=90;
