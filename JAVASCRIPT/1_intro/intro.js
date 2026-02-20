@@ -26,6 +26,6 @@ let num4=78;
  console.log(num3)
 
 //3/const
-const num6=90;
+const num6=90;git 
 console.log(num6);
 
